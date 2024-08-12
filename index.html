@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-container {
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            padding: 40px;
+            border-radius: 5px; /* Rounded corners for the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a subtle effect */
+        }
+
+        .logo {
+            width: 300px; /* Increased width */
+            height: 80px; /* Adjust height proportionally */
+            margin-bottom: 20px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCLZHKTLEOKZDwh3sr39VHnlLzrHquaLv3nSA2OUdWdLl1cljz8P6E2k16ov-yr0a-lA&usqp=CAU');
+            background-size: contain; /* Ensures the entire image is visible */
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+.logo {
+    width: 250px; /* Increased width */
+    height: 100px; /* Adjust height proportionally */
+    margin: 0 auto 20px; /* Center horizontally and add margin-bottom */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCLZHKTLEOKZDwh3sr39VHnlLzrHquaLv3nSA2OUdWdLl1cljz8P6E2k16ov-yr0a-lA&usqp=CAU');
+    background-size: contain; /* Ensures the entire image is visible */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block; /* Ensure it's a block-level element for centering */
+}
+
+        input[type="text"], input[type="password"] {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #dbdbdb;
+            border-radius: 3px;
+            background-color: #fafafa;
+        }
+
+        button[type="submit"] {
+            padding: 10px;
+            background-color: #3897f0;
+            color: #fff;
+            border: none;
+            border-radius: 30px; /* Increased border-radius for a more curved effect */
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            margin: 20px 0;
+            color: #8e8e8e;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .divider:before, .divider:after {
+            content: "";
+            background-color: #dbdbdb;
+            height: 1px;
+            width: 40%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .divider:before {
+            left: 0;
+        }
+
+        .divider:after {
+            right: 0;
+        }
+
+        .fb-login {
+            padding: 10px;
+            background-color: white;
+            color: darkblue;
+            border: none;
+            border-radius: 10px; /* Increased border-radius for a more curved effect */
+            font-weight: bold;
+            cursor: pointer;
+            url("")
+        }
+
+        .forgot-password {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #00376b;
+        }
+
+        .signup-container {
+            margin-top: 20px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            border-radius: 5px; /* Rounded corners for the container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a subtle effect */
+        }
+        ._ab36 {
+    border: 0;
+    display: inline-block;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    margin-right: 8px;
+    padding: 0;
+    position: relative;
+    top: 3px;
+    vertical-align: baseline;
+}
+._a04s {
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+}
+        .signup {
+            font-size: 14px;
+        }
+
+        .signup a {
+            color: #0095f6;
+            text-decoration: none;
+        }
+
+        .get-app {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #8e8e8e;
+        }
+
+        .app-links {
+            margin-top: 10px;
+        }
+
+        .app-links img {
+            width: 135px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo"></div>
+            <form>
+                <input type="text" placeholder="Phone number, username, or email">
+                <input type="password" placeholder="Password">
+                <button type="submit">Log in</button>
+                <div class="divider">OR</div>
+                <span class=" _a04s _ab36"></span>
+                <button type="button" class="fb-login">Log in with Facebook</button>
+                <a href="instagram.com" class="forgot-password">Forgot password?</a>
+            </form>
+        </div>
+        <div class="signup-container">
+            <div class="signup">
+                Don't have an account? <a href="#">Sign up</a>
+            </div>
+        </div>
+        <div class="get-app">
+            <p>Get the app.</p>
+            <div class="app-links">
+                <a aria-label="Get it on Google Play" class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x2pgyrj x1emribx _a6hd" href="https://play.google.com/store/apps/details?id=com.instagram.android&amp;referrer=ig_mid%3D15E74B33-67D0-4F1D-9437-C9223E09368E%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" rel="nofollow noreferrer" role="link" tabindex="0" target="_blank"><img alt="Get it on Google Play" class="x1vqgdyp" src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"></a>
+                <a aria-label="Get it from Microsoft" class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x2pgyrj x1emribx _a6hd" href="ms-windows-store://pdp/?productid=9nblggh5l9xt&amp;referrer=appbadge&amp;source=www.instagram.com&amp;mode=mini&amp;pos=0%2C0%2C1920%2C1020" rel="nofollow noreferrer" role="link" tabindex="0" target="_blank"><img alt="Get it from Microsoft" class="x1vqgdyp" src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"></a>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
